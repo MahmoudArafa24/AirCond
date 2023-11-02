@@ -343,10 +343,7 @@ body{
     overflow: hidden;
 
 }
-#Services .service-item .service-image{
-   
 
-}
 #Services .service-item .service-actions{
     position: absolute;
     left: 0;
@@ -391,7 +388,13 @@ body{
    height: 90px;
    margin: auto;
 }
-
+/*** img-icons ***/
+/*
+.img-fluid {
+    height: auto;
+    max-width: 60%;
+}
+*/
  
 /*** Team ***/
 .team-item .team-img::before,
