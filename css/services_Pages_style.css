@@ -1,0 +1,40 @@
+.Service-description{
+    background-color: #FFF;
+    box-shadow: 0 0 16px #EEE;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+}
+.Service-description .image{
+    background-color: #FFF;
+    box-shadow: 0 0 16px #EEE;
+    padding: 10px;
+    border-radius: 12px;
+    height: 300px;
+    
+    
+}
+@media (max-width:768px) {
+    .Service-description .image{
+        margin-bottom: 20px;
+    }
+    
+}
+.Service-description .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.Service-description .content h5{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bs-orange);
+    color: #FFF;
+    border-radius: 5px;
+}
+.Service-description .content span{
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+
+}

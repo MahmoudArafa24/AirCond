@@ -22,9 +22,34 @@ body{
 .back-to-top {
     position: fixed;
     display: none;
-    right: 30px;
+    left: 30px;
     bottom: 30px;
     z-index: 99;
+}
+.tel-whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9999;
+
+}
+.tel-whatsapp a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.tel-whatsapp a.tel{
+    background-color: var(--bs-orange);
+
+}
+.tel-whatsapp a.whatsapp{
+    background-color: 	#25d366;
+
 }
 .form-floating>label{
     right: 0;
