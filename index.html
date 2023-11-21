@@ -466,32 +466,36 @@
                     <div class="row g-3">
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                <label for="name">الاسم</label>
+                                <input type="text" class="form-control" id="customerName" placeholder="Your Name">
+                                <label for="customerName">الاسم</label>
                             </div>
+                            <small class="error-message text-danger"></small>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
                                 <input type="email" class="form-control" id="email" placeholder="Your Email">
                                 <label for="email">الايميل</label>
                             </div>
+                            <small class="error-message text-danger"></small>
                         </div>
                       
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" id="subject" placeholder="Subject">
-                                <label for="email">الموبايل</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="الموبايل">
+                                <label for="phone">الموبايل</label>
 
                             </div>
+                            <small class="error-message text-danger"></small>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                <textarea class="form-control" placeholder="اترك رسالتك هنا" id="message" style="height: 100px"></textarea>
                                 <label for="message">رسالتك</label>
                             </div>
+                            <small class="error-message text-danger"></small>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary py-3 px-5" type="submit">ارسال</button>
+                            <button class="btn btn-primary py-3 px-5" id="submit_form" type="submit">ارسال</button>
                         </div>
                     </div>
                 </form>
@@ -608,6 +612,11 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- email js library -->
+    <script src="js/email.min.js"></script>
+    <script src="js/sendingEmails.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

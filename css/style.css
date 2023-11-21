@@ -602,3 +602,45 @@ body{
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+
+
+/* pop up alert message */
+
+.contact-with-me   .pop-up-alert-message{
+    position: fixed;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 330px;
+    width: 330px;
+    padding: 20px 10px;
+    color: #FFF;
+    text-align: center;
+    z-index: 99;
+    font-family: "NotoKufiArabic-Medium",monospace,sans-serif;
+    transition: all .6s ease-in-out;
+
+
+}
+   .pop-up-alert-message.active{
+    bottom: 80px;
+}
+   .pop-up-alert-message.success{
+    border-right: 10px solid #31da7e;
+    background-color: #31da7e59;
+}
+   .pop-up-alert-message.error{
+    border-right: 10px solid #a82c2c;
+    background-color: #a82c2c78;
+}
+/* end contact with me section */
+   .pop-up-alert-message .close-alert{
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    border-radius: 50%;
+    background: #dfdfdf;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
