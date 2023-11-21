@@ -606,7 +606,7 @@ body{
 
 /* pop up alert message */
 
-.contact-with-me   .pop-up-alert-message{
+  .pop-up-alert-message{
     position: fixed;
     bottom: -120px;
     left: 50%;
@@ -633,7 +633,6 @@ body{
     border-right: 10px solid #a82c2c;
     background-color: #a82c2c78;
 }
-/* end contact with me section */
    .pop-up-alert-message .close-alert{
     width: 40px;
     height: 40px;
