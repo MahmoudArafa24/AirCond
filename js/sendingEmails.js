@@ -93,7 +93,7 @@ submit_button.addEventListener("click",(e)=>{
 
     if(checkName()&&checkEmail()&&checkPhone() &&checkMessage()){
         submit_button.disabled = true;
-        submit_button.innerHTML=`<div class="animation"><span></span><span></span><span></span></div>`;
+        submit_button.innerHTML=`جاري الإرسال....`;
 
         let date=new Date().getTime();
         if(localStorage.getItem("lastTimeSendingMessage")){
